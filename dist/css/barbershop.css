@@ -8272,7 +8272,15 @@ a:hover, a.active {
 }
 .btn-outline-brown:hover {
   background-color: #a98970;
-  color: #fff;
+  color: #fff !important;
+}
+
+.link-brown {
+  color: #a98970 !important;
+}
+.link-brown:hover {
+  color: #906f56 !important;
+  text-decoration: none !important;
 }
 
 .text-gray {
@@ -8357,6 +8365,10 @@ header .container nav div ul li .dropdown-menu .dropdown-divider {
   height: 10px;
   background: center center no-repeat url("../../img/barbershop/heading-line.png");
   position: relative;
+}
+
+.footer {
+  border-top: 1px solid #a98970;
 }
 
 /*# sourceMappingURL=barbershop.css.map */
