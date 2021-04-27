@@ -8317,9 +8317,6 @@ header .container nav div ul li .dropdown-menu .dropdown-divider {
   border-top-color: var(--main-color);
 }
 
-.slider div div .carousel-item {
-  height: 100vh;
-}
 .slider div div .carousel-item .carousel-caption {
   top: 40%;
   bottom: initial;
@@ -8328,12 +8325,6 @@ header .container nav div ul li .dropdown-menu .dropdown-divider {
   margin-right: auto;
   margin-left: auto;
   box-shadow: 1px 1px 12px var(--color-dark) !important;
-}
-.slider div div .carousel-item .carousel-caption h5 {
-  color: #a98970;
-}
-.slider div div .carousel-item .carousel-caption p {
-  color: var(--color-gray);
 }
 
 .section-heading {

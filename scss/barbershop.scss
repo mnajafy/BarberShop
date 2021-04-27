@@ -89,7 +89,6 @@ header {
 }
 
 .slider div div .carousel-item {
-  height: 100vh;
   .carousel-caption {
     top: 40%;
     bottom: initial;
@@ -98,12 +97,6 @@ header {
     margin-right: auto;
     margin-left: auto;
     box-shadow: 1px 1px 12px var(--color-dark) !important;
-    h5 {
-        color: $brown;
-    }
-    p {
-        color: var(--color-gray);
-    }
   }
 }
 
