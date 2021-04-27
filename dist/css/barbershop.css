@@ -8276,11 +8276,23 @@ a:hover, a.active {
 }
 
 .text-gray {
-  color: var(--color-gray) !important;
+  color: #666 !important;
+}
+
+.text-brown {
+  color: #a98970 !important;
 }
 
 .bg-black {
   background-color: var(--color-black) !important;
+}
+
+.bg-c-dark {
+  background-color: var(--color-dark) !important;
+}
+
+.border-brown {
+  border-color: #a98970 !important;
 }
 
 header {
