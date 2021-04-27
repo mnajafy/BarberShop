@@ -9,6 +9,7 @@
   --color-black: #222;
   --color-gray: #666;
 }
+
 $brown: #a98970;
 $gray: #666;
 
@@ -41,10 +42,17 @@ a {
   border-color: $brown;
   &:hover {
     background-color: $brown;
-    color: $white;
+    color: $white !important;
   }
 }
 
+.link-brown {
+    color: $brown !important;
+    &:hover {
+        color: darken($color: $brown, $amount: 10) !important;
+        text-decoration: none !important;
+    }
+}
 .text-gray {
     color: $gray !important;
 }
@@ -132,4 +140,8 @@ header {
         background: center center no-repeat url("../../img/barbershop/heading-line.png");
         position: relative;
     }
+}
+
+.footer {
+    border-top: 1px solid $brown;
 }
