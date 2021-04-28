@@ -1,0 +1,11 @@
+.slider div div .carousel-item {
+  .carousel-caption {
+    top: 40%;
+    bottom: initial;
+    background-color: rgba(34, 34, 34, 0.6);
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 1px 1px 12px $dark !important;
+  }
+}
