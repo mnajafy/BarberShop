@@ -1,0 +1,9 @@
+$secondary: #222;
+$dark: #000;
+$muted: #666;
+$brown: #a98970;
+:root {
+  --main-color: #a98970;
+  scrollbar-color: $brown $dark !important;
+  scrollbar-width: thin !important;
+}
