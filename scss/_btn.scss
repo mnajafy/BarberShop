@@ -1,0 +1,20 @@
+.btn-brown {
+  color: $white;
+  background-color: $brown;
+  border-color: $brown;
+  &:hover {
+    background: darken($brown, 10);
+    color: $white !important;
+  }
+}
+
+.btn-outline-brown {
+  color: $brown;
+  background-color: transparent;
+  background-image: none;
+  border-color: $brown;
+  &:hover {
+    background-color: $brown;
+    color: $white !important;
+  }
+}
