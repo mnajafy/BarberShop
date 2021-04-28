@@ -1,0 +1,40 @@
+.form-control {
+    background-color: $secondary !important;
+    border-radius: 0;
+    line-height: 32px;
+    height: 52px;
+    border: 3px solid rgba(255,255,255,.3);
+    color: $white;
+    &::placeholder {
+        color: $muted;
+    }
+    &:focus {
+        color: $white;
+        border-color: lighten($color: $muted, $amount: 10);
+        box-shadow: 1px 1px 12px $muted;
+    }
+}
+select.form-control:not([size]):not([multiple]) {
+    height: 52px;
+}
+select.form-control {
+    appearance: none;
+    cursor: pointer;
+}
+.select {
+    position: relative;
+    &::after {
+        content: '\25BC';
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        padding: 14px 30px;
+        background-color: transparent;
+        color: $muted;
+        pointer-events: none;
+        transition: .25 all ease;
+    }
+}
+.select:hover:after {
+    color: $brown;
+}
