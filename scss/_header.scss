@@ -1,0 +1,41 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: $dark;
+  z-index: 100;
+  .container nav {
+    .navbar-brand {
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+    }
+
+    div ul li {
+      line-height: 3.5rem;
+      .nav-link {
+          color: $white !important;
+          &:hover {
+              color: $brown !important;
+          }
+      }
+      &.active .nav-link {
+        color: var(--main-color) !important;
+      }
+      .dropdown-menu {
+        line-height: initial;
+        background-color: $dark !important;
+        .dropdown-item {
+          color: $white !important;
+        }
+        .dropdown-item:hover {
+          background-color: initial !important;
+          color: $brown !important;
+        }
+        .dropdown-divider {
+          border-top-color: var(--main-color) !important;
+        }
+      }
+    }
+  }
+}
