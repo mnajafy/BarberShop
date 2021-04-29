@@ -25,7 +25,7 @@
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
-  --gray: #6c757d;
+  --gray: #666;
   --gray-dark: #343a40;
   --primary: #007bff;
   --secondary: #222;
@@ -225,7 +225,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #666;
   text-align: left;
   caption-side: bottom;
 }
@@ -473,7 +473,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #6c757d;
+  color: #666;
 }
 .blockquote-footer::before {
   content: "— ";
@@ -504,7 +504,7 @@ mark,
 
 .figure-caption {
   font-size: 90%;
-  color: #6c757d;
+  color: #666;
 }
 
 code,
@@ -1806,7 +1806,7 @@ pre code {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 .form-control::placeholder {
-  color: #6c757d;
+  color: #666;
   opacity: 1;
 }
 .form-control:disabled, .form-control[readonly] {
@@ -1945,7 +1945,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   margin-left: -1.25rem;
 }
 .form-check-input:disabled ~ .form-check-label {
-  color: #6c757d;
+  color: #666;
 }
 
 .form-check-label {
@@ -2676,7 +2676,7 @@ fieldset:disabled a.btn {
   box-shadow: none;
 }
 .btn-link:disabled, .btn-link.disabled {
-  color: #6c757d;
+  color: #666;
 }
 
 .btn-lg, .btn-group-lg > .btn {
@@ -2883,7 +2883,7 @@ tbody.collapse.show {
   background-color: #007bff;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
-  color: #6c757d;
+  color: #666;
   background-color: transparent;
 }
 
@@ -2896,7 +2896,7 @@ tbody.collapse.show {
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
   font-size: 0.875rem;
-  color: #6c757d;
+  color: #666;
   white-space: nowrap;
 }
 
@@ -3164,7 +3164,7 @@ tbody.collapse.show {
   background-color: #b3d7ff;
 }
 .custom-control-input:disabled ~ .custom-control-label {
-  color: #6c757d;
+  color: #666;
 }
 .custom-control-input:disabled ~ .custom-control-label::before {
   background-color: #e9ecef;
@@ -3262,7 +3262,7 @@ tbody.collapse.show {
   background-image: none;
 }
 .custom-select:disabled {
-  color: #6c757d;
+  color: #666;
   background-color: #e9ecef;
 }
 .custom-select::-ms-expand {
@@ -3357,7 +3357,7 @@ tbody.collapse.show {
   text-decoration: none;
 }
 .nav-link.disabled {
-  color: #6c757d;
+  color: #666;
 }
 
 .nav-tabs {
@@ -3375,7 +3375,7 @@ tbody.collapse.show {
   border-color: #e9ecef #e9ecef #dee2e6;
 }
 .nav-tabs .nav-link.disabled {
-  color: #6c757d;
+  color: #666;
   background-color: transparent;
   border-color: transparent;
 }
@@ -4010,7 +4010,7 @@ tbody.collapse.show {
   display: inline-block;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
-  color: #6c757d;
+  color: #666;
   content: "/";
 }
 .breadcrumb-item + .breadcrumb-item:hover::before {
@@ -4020,7 +4020,7 @@ tbody.collapse.show {
   text-decoration: none;
 }
 .breadcrumb-item.active {
-  color: #6c757d;
+  color: #666;
 }
 
 .pagination {
@@ -4071,7 +4071,7 @@ tbody.collapse.show {
   border-color: #007bff;
 }
 .page-item.disabled .page-link {
-  color: #6c757d;
+  color: #666;
   pointer-events: none;
   cursor: auto;
   background-color: #fff;
@@ -4442,7 +4442,7 @@ tbody.collapse.show {
   text-decoration: none;
 }
 .list-group-item.disabled, .list-group-item:disabled {
-  color: #6c757d;
+  color: #666;
   background-color: #fff;
 }
 .list-group-item.active {
@@ -8144,7 +8144,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #666 !important;
 }
 
 .text-hide {
@@ -8401,6 +8401,7 @@ select.form-control {
 
 * {
   font-family: "Poppins", sans-serif;
+  color: #666;
 }
 
 .link-brown {
@@ -8411,16 +8412,20 @@ select.form-control {
   text-decoration: none !important;
 }
 
+.link-muted {
+  color: #666;
+}
+.link-muted:hover, .link-muted:hover i {
+  color: #a98970 !important;
+  text-decoration: none;
+}
+
 .text-brown {
   color: #a98970 !important;
 }
 
 .border-brown {
   border-color: #a98970 !important;
-}
-
-.footer {
-  border-top: 1px solid #a98970;
 }
 
 body {
@@ -8437,6 +8442,27 @@ body::-webkit-scrollbar-thumb {
   width: 8px;
   background: #a98970;
   border-radius: 8px;
+}
+
+.satellite-map {
+  position: relative;
+  background-color: rgba(34, 34, 34, 0.9);
+}
+.satellite-map::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: url("../../img/barbershop/satellite-map.png") no-repeat center;
+  background-color: #222;
+  z-index: -1;
+}
+
+.footer {
+  border-top: 1px solid #a98970;
 }
 
 /*# sourceMappingURL=barbershop.css.map */
