@@ -72,3 +72,37 @@ body {
         z-index: -1;
     }
 }
+
+/*...........*/
+.back-top {
+    position: fixed;
+    bottom: 30px;
+    margin-left: 20px;
+    z-index: 1000;
+    display: none;
+    right: 1%;
+    /*background-image: url('../img/bg_comment.png');*/
+    a {
+        display: block;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        transition: 1s;
+        width: 50px;
+        height: 50px;
+        // background-image: linear-gradient(to left,#2AEDFF,#557FEB);
+        background-color: $brown;
+        border-radius: 50%;
+        position: relative;
+        &:before {
+            content: "";
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            border-top: 2px solid #fff;
+            border-right: 2px solid #fff;
+            top: calc(50% - 4px);
+            right: calc(50% - 7px);
+            transform: rotate(-45deg);
+        }
+    }
+}
