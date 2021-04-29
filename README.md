@@ -1,6 +1,6 @@
 # BarberShop
 
-# Main Features:
+## Main Features:
 * HTML, CSS and JS
 * dart-sass
 * Bootstrap-4.0.0
@@ -8,7 +8,7 @@
 * Font Awesome-5.15.3
 * Aos
 
-# Fonts:
+## Fonts:
 * Poppins
 * Prata
 
