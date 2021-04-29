@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BarberShop</title>
 
+    <link rel="stylesheet" href="./lib/fontawesome-5.15.3/css/all.css">
     <link rel="stylesheet" href="dist/css/barbershop.css">
 </head>
 <body>
@@ -23,7 +24,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#hello">Accueil</a>
+                            <a class="nav-link" href="#">Accueil</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#a-propos">À propos</a>
@@ -40,11 +41,13 @@
                                 Pages
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
                                 <a class="dropdown-item" href="#">Galerie</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">404</a>
                             </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                     <a href="#prdv" class="btn btn-outline-brown rounded-0 ml-2">prendre rendez vous</a>
@@ -115,7 +118,7 @@
                     <div class="section-content mb-3">
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur rerum quae temporibus ab quos ipsam molestias error quo deleniti repellat.</p>
                         <p class="text-muted">Maiores aspernatur neque eos fugit perspiciatis, autem, voluptatem corporis a, dolore vero eligendi? Nisi tempora vero velit eius culpa illum.</p>
-                        <a class="btn btn-brown rounded-0" href="#prendre_rendez_vous">prendre rendez vous</a>
+                        <a class="btn btn-brown rounded-0" href="#prdv">prendre rendez vous</a>
                     </div>
                 </div>
 
@@ -396,9 +399,44 @@
         </div>
     </section>
 
+    <section class="py-5 satellite-map" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h3>Lorem Ipsum Dolor Sit</h3>
+                <h2>Lorem Ipsum Dolor</h2>
+                <div class="section-heading-line"></div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-3 text-center">
+                    <h5><i class="fas fa-map-marker-alt"></i> Adress</h5>
+                    <p class="mb-0">7 rue Paris France</p>
+                    <p>75000, Paris - France</p>
+                </div>
+    
+                <div class="col-12 col-md-3 text-center">
+                    <h5><i class="fas fa-phone-alt"></i> Tel</h5>
+                    <a href="tel:0666666666" class="link-muted">06.66.66.66.66</a>
+                </div>
+    
+                <div class="col-12 col-md-3 text-center">
+                    <h5><i class="fas fa-envelope"></i> Mail</h5>
+                    <a href="mailto:m.najafy@hotmail.com" class="link-muted">m.najafy@hotmail.com</a>
+                </div>
+    
+                <div class="col-12 col-md-3 text-center">
+                    <h5><i class="fas fa-wifi"></i> Reseaux Sociaux</h5>
+                    <a href="#" class="btn link-muted"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="btn link-muted"><i class="fab fa-github"></i></a>
+                    <a href="#" class="btn link-muted"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="btn link-muted"><i class="fab fa-telegram-plane"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer py-4 bg-secondary">
         <div class="container">
-            <span class="text-muted">© 2021 Barber Shop Powered by <a class="link-brown" href="mailto:m.najafy@hotmail.com">m.najafy@hotmail.com</a></span>
+            <span class="text-muted">© 2021 Barber Shop Powered by <a class="link-muted" href="mailto:m.najafy@hotmail.com">m.najafy@hotmail.com</a></span>
         </div>
     </footer>
 
