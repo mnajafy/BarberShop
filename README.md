@@ -18,4 +18,6 @@ Ce modèle fait avec Bootstrap, en utilisant HTML5, SASS, CSS3, JS et jQuery.
 * Poppins
 * Prata
 
+## Template
+
 ![alt text](https://github.com/mnajafy/BarberShop/blob/main/BarberShop.jpeg)
