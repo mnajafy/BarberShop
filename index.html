@@ -7,6 +7,7 @@
     <title>BarberShop</title>
 
     <link rel="stylesheet" href="./lib/fontawesome-5.15.3/css/all.css">
+    <link rel="stylesheet" href="./lib/aos/dist/aos.css">
     <link rel="stylesheet" href="dist/css/barbershop.css">
 </head>
 <body>
@@ -110,20 +111,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6">
-                    <div class="section-heading">
-                        <h3>Lorem Ipsum Dolor Sit</h3>
-                        <h2>Lorem Ipsum Dolor</h2>
-                        <div class="section-heading-line"></div>
+                    <div data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <div class="section-heading">
+                            <h3>Lorem Ipsum Dolor Sit</h3>
+                            <h2>Lorem Ipsum Dolor</h2>
+                            <div class="section-heading-line"></div>
+                        </div>
                     </div>
+
                     <div class="section-content mb-3">
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur rerum quae temporibus ab quos ipsam molestias error quo deleniti repellat.</p>
-                        <p class="text-muted">Maiores aspernatur neque eos fugit perspiciatis, autem, voluptatem corporis a, dolore vero eligendi? Nisi tempora vero velit eius culpa illum.</p>
-                        <a class="btn btn-brown rounded-0" href="#prdv">prendre rendez vous</a>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur rerum quae temporibus ab quos ipsam molestias error quo deleniti repellat.</p>
+                            <p class="text-muted">Maiores aspernatur neque eos fugit perspiciatis, autem, voluptatem corporis a, dolore vero eligendi? Nisi tempora vero velit eius culpa illum.</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                            <a class="btn btn-brown rounded-0" href="#prdv">prendre rendez vous</a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-12 col-lg-6">
-                    <img src="./img/barbershop/post-1.jpg" class="d-block img-fluid w-100" alt="">
+                    <div data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <img src="./img/barbershop/post-1.jpg" class="d-block img-fluid w-100" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -131,10 +141,12 @@
     
     <section class="py-5 bg-secondary" id="services">
         <div class="container">
-            <div class="section-heading">
-                <h3>Lorem Ipsum Dolor Sit</h3>
-                <h2>Lorem Ipsum Dolor</h2>
-                <div class="section-heading-line"></div>
+            <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="section-heading">
+                    <h3>Lorem Ipsum Dolor Sit</h3>
+                    <h2>Lorem Ipsum Dolor</h2>
+                    <div class="section-heading-line"></div>
+                </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-3">
@@ -185,114 +197,132 @@
 
     <section class="py-5 bg-secondary" id="tarification">
         <div class="container">
-            <div class="section-heading">
-                <h3>Lorem Ipsum Dolor Sit</h3>
-                <h2>Lorem Ipsum Dolor</h2>
-                <div class="section-heading-line"></div>
+            <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="section-heading">
+                    <h3>Lorem Ipsum Dolor Sit</h3>
+                    <h2>Lorem Ipsum Dolor</h2>
+                    <div class="section-heading-line"></div>
+                </div>
             </div>
             <div class="row">
                 <div class="col-12 col-lg-4">
-                    <div class="card mb-3 bg-secondary border-brown">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between">
-                                <h5 class="card-title text-white">Card title</h5>
-                                <span class="text-brown">12,00</span>
+                    <div data-aos="flip-up">
+                        <div class="card mb-3 bg-secondary border-brown">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title text-white">Card title</h5>
+                                    <span class="text-brown">12,00</span>
+                                </div>
+                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
-                            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     
-                    <div class="card mb-3 bg-secondary border-brown">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between">
-                                <h5 class="card-title text-white">Card title</h5>
-                                <span class="text-brown">12,00</span>
+                    <div data-aos="flip-up">
+                        <div class="card mb-3 bg-secondary border-brown">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title text-white">Card title</h5>
+                                    <span class="text-brown">12,00</span>
+                                </div>
+                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.</p>
                             </div>
-                            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the
-                                card's content.</p>
                         </div>
                     </div>
 
-                    <div class="card mb-3 bg-secondary border-brown">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between">
-                                <h5 class="card-title text-white">Card title</h5>
-                                <span class="text-brown">12,00</span>
+                    <div data-aos="flip-up">
+                        <div class="card mb-3 bg-secondary border-brown">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title text-white">Card title</h5>
+                                    <span class="text-brown">12,00</span>
+                                </div>
+                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.</p>
                             </div>
-                            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the
-                                card's content.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-12 col-lg-4">
-                    <div class="card mb-3 bg-secondary border-brown">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between">
-                                <h5 class="card-title text-white">Card title</h5>
-                                <span class="text-brown">12,00</span>
+                    <div data-aos="flip-up">
+                        <div class="card mb-3 bg-secondary border-brown">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title text-white">Card title</h5>
+                                    <span class="text-brown">12,00</span>
+                                </div>
+                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.</p>
                             </div>
-                            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.</p>
                         </div>
                     </div>
                 
-                    <div class="card mb-3 bg-secondary border-brown">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between">
-                                <h5 class="card-title text-white">Card title</h5>
-                                <span class="text-brown">12,00</span>
+                    <div data-aos="flip-up">
+                        <div class="card mb-3 bg-secondary border-brown">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title text-white">Card title</h5>
+                                    <span class="text-brown">12,00</span>
+                                </div>
+                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.</p>
                             </div>
-                            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of
-                                the
-                                card's content.</p>
                         </div>
                     </div>
                 
-                    <div class="card mb-3 bg-secondary border-brown">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between">
-                                <h5 class="card-title text-white">Card title</h5>
-                                <span class="text-brown">12,00</span>
+                    <div data-aos="flip-up">
+                        <div class="card mb-3 bg-secondary border-brown">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title text-white">Card title</h5>
+                                    <span class="text-brown">12,00</span>
+                                </div>
+                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.</p>
                             </div>
-                            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of
-                                the
-                                card's content.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-12 col-lg-4">
-                    <div class="card mb-3 bg-secondary border-brown">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between">
-                                <h5 class="card-title text-white">Card title</h5>
-                                <span class="text-brown">12,00</span>
+                    <div data-aos="flip-up">
+                        <div class="card mb-3 bg-secondary border-brown">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title text-white">Card title</h5>
+                                    <span class="text-brown">12,00</span>
+                                </div>
+                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.</p>
                             </div>
-                            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.</p>
                         </div>
                     </div>
                 
-                    <div class="card mb-3 bg-secondary border-brown">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between">
-                                <h5 class="card-title text-white">Card title</h5>
-                                <span class="text-brown">12,00</span>
+                    <div data-aos="flip-up">
+                        <div class="card mb-3 bg-secondary border-brown">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title text-white">Card title</h5>
+                                    <span class="text-brown">12,00</span>
+                                </div>
+                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.</p>
                             </div>
-                            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of
-                                the
-                                card's content.</p>
                         </div>
                     </div>
                 
-                    <div class="card mb-3 bg-secondary border-brown">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between">
-                                <h5 class="card-title text-white">Card title</h5>
-                                <span class="text-brown">12,00</span>
+                    <div data-aos="flip-up">
+                        <div class="card mb-3 bg-secondary border-brown">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title text-white">Card title</h5>
+                                    <span class="text-brown">12,00</span>
+                                </div>
+                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.</p>
                             </div>
-                            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                 </div>
@@ -302,98 +332,109 @@
     
     <section class="py-5 bg-secondary" id="prdv">
         <div class="container">
-            <div class="section-heading">
-                <h3>Lorem Ipsum Dolor Sit</h3>
-                <h2>Lorem Ipsum Dolor</h2>
-                <div class="section-heading-line"></div>
+            <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="section-heading">
+                    <h3>Lorem Ipsum Dolor Sit</h3>
+                    <h2>Lorem Ipsum Dolor</h2>
+                    <div class="section-heading-line"></div>
+                </div>
             </div>
             <div class="row">
                 <div class="col-12 col-lg-6">
-                    <div class="card bg-secondary border-brown">
-                        <div class="card-body">
-                            <h5 class="card-title text-white">Heures d'ouverture</h5>
-                            <table class="table table-secondary mb-0">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Jour</th>
-                                        <th scope="col text-center">le matin</th>
-                                        <th scope="col text-center">apres midi</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">Lundi</th>
-                                        <td>-</td>
-                                        <td>14:00-19:00</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Mardi</th>
-                                        <td>09:30-13:00</td>
-                                        <td>14:00-19:00</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Mercredi</th>
-                                        <td>09:30-13:00</td>
-                                        <td>14:00-19:00</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Jeudi</th>
-                                        <td>09:30-13:00</td>
-                                        <td>14:00-19:00</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Vendredi</th>
-                                        <td>09:30-13:00</td>
-                                        <td>14:00-19:00</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Samedi</th>
-                                        <td>09:30-13:00</td>
-                                        <td>14:00-19:00</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Dimance</th>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                    <div data-aos="flip-right">
+                        <div class="card bg-secondary border-brown">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Heures d'ouverture</h5>
+                                <table class="table table-secondary mb-0">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Jour</th>
+                                            <th scope="col text-center">le matin</th>
+                                            <th scope="col text-center">apres midi</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Lundi</th>
+                                            <td>-</td>
+                                            <td>14:00-19:00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Mardi</th>
+                                            <td>09:30-13:00</td>
+                                            <td>14:00-19:00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Mercredi</th>
+                                            <td>09:30-13:00</td>
+                                            <td>14:00-19:00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Jeudi</th>
+                                            <td>09:30-13:00</td>
+                                            <td>14:00-19:00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Vendredi</th>
+                                            <td>09:30-13:00</td>
+                                            <td>14:00-19:00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Samedi</th>
+                                            <td>09:30-13:00</td>
+                                            <td>14:00-19:00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Dimance</th>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo minus consequatur ducimus atque facere similique, hic officiis sequi architecto eum!</p>
-                    <form>
-                        <div class="row">
-                            <div class="col-12 col-md-6 mb-3">
-                                <input type="text" class="form-control" placeholder="Nome">
+                    <div data-aos="flip-left">
+                        <div class="card bg-secondary border-0">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Prendre rendez vous</h5>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo minus consequatur ducimus atque facere similique, hic officiis sequi architecto eum!</p>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 mb-3">
+                                            <input type="text" class="form-control" placeholder="Nome">
+                                        </div>
+                                        <div class="col-12 col-md-6 mb-3">
+                                            <input type="email" class="form-control" placeholder="Adresse mail">
+                                        </div>
+                                        <div class="col-12 col-md-6 mb-3">
+                                            <input type="tel" class="form-control" placeholder="Mobil">
+                                        </div>
+                                        <div class="col-12 col-md-6 mb-3 select">
+                                            <select class="form-control">
+                                                <option disabled selected>Service</option>
+                                                <option>Service 2</option>
+                                                <option>Service 3</option>
+                                                <option>Service 4</option>
+                                                <option>Service 5</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-12 col-md-6 mb-3">
+                                            <input type="date" class="form-control" placeholder="Date">
+                                        </div>
+                                        <div class="col-12 col-md-6 mb-3">
+                                            <input type="time" class="form-control" placeholder="Heure">
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <button class="btn btn-brown rounded-0 p-2" type="submit">Prendre rendez vous</button>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                            <div class="col-12 col-md-6 mb-3">
-                                <input type="email" class="form-control" placeholder="Adresse mail">
-                            </div>
-                            <div class="col-12 col-md-6 mb-3">
-                                <input type="tel" class="form-control" placeholder="Mobil">
-                            </div>
-                            <div class="col-12 col-md-6 mb-3 select">
-                                <select class="form-control">
-                                    <option disabled selected>Service</option>
-                                    <option>Service 2</option>
-                                    <option>Service 3</option>
-                                    <option>Service 4</option>
-                                    <option>Service 5</option>
-                                </select>
-                            </div>
-                            <div class="col-12 col-md-6 mb-3">
-                                <input type="date" class="form-control" placeholder="Date">
-                            </div>
-                            <div class="col-12 col-md-6 mb-3">
-                                <input type="time" class="form-control" placeholder="Heure">
-                            </div>
-                            <div class="col-12 mb-3">
-                                <button class="btn btn-brown rounded-0 p-2" type="submit">Prendre rendez vous</button>
-                            </div>
-                        </div>
-                    </form>
+                        </div> 
+                    </div>
                 </div>
             </div>
         </div>
@@ -443,6 +484,7 @@
     <script src="lib/jquery-3.6.0/jquery.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
     <script src="lib/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+    <script src="lib/aos/dist/aos.js"></script>
     <script src="dist/js/barbershop.js"></script>
 </body>
 </html>
