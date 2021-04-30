@@ -12,12 +12,11 @@ header {
     }
 
     div ul li {
-      line-height: 3.5rem;
       .nav-link {
-          color: $white !important;
-          &:hover {
-              color: $brown !important;
-          }
+        color: $white !important;
+        &:hover {
+          color: $brown !important;
+        }
       }
       &.active .nav-link {
         color: var(--main-color) !important;
@@ -37,5 +36,11 @@ header {
         }
       }
     }
+  }
+}
+
+@media (min-width: 992px) {
+  header .container nav div ul li {
+    line-height: 3.5rem;
   }
 }
