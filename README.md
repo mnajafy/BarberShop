@@ -20,4 +20,8 @@ Ce modèle fait avec Bootstrap, en utilisant HTML5, SASS, CSS3, JS et jQuery.
 
 ## Template
 
+### View:
+
+[BarberShop](https://mnajafy.github.io/BarberShop/)
+
 ![Template BarberShopp](https://github.com/mnajafy/BarberShop/blob/main/BarberShop.jpeg)
