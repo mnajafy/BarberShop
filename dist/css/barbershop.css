@@ -8254,9 +8254,6 @@ header .container nav .navbar-brand {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
-header .container nav div ul li {
-  line-height: 3.5rem;
-}
 header .container nav div ul li .nav-link {
   color: #fff !important;
 }
@@ -8281,6 +8278,11 @@ header .container nav div ul li .dropdown-menu .dropdown-divider {
   border-top-color: var(--main-color) !important;
 }
 
+@media (min-width: 992px) {
+  header .container nav div ul li {
+    line-height: 3.5rem;
+  }
+}
 .slider div div .carousel-item .carousel-caption {
   top: 40%;
   bottom: initial;
