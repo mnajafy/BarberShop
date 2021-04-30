@@ -1,8 +1,10 @@
 $(document).ready(function() {
+    // init AOS
     AOS.init();
     // top to
     // hide #back-top first
     $("#back-top").hide();
+
     // fade in #back-top
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
@@ -11,11 +13,19 @@ $(document).ready(function() {
             $('#back-top').fadeOut();
         }
     });
-    // scroll body to 0px on click
-    $('#back-top a').click(function() {
-        $('body,html').animate({
-            scrollTop: 0
-        }, 800);
-        return false;
+
+    // Ajouter un défilement fluide à tous les liens 
+    $('a').on('click', function(event) {
+        if (this.hash !== '') {
+            console.log(event);
+            event.preventDefault();
+            console.log(event);
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function() {
+                window.location.hash = hash;
+            });
+        }
     });
 });
