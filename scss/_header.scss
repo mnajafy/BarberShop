@@ -19,7 +19,7 @@ header {
         }
       }
       &.active .nav-link {
-        color: var(--main-color) !important;
+        color: $brown !important;
       }
       .dropdown-menu {
         line-height: initial;
@@ -32,7 +32,7 @@ header {
           color: $brown !important;
         }
         .dropdown-divider {
-          border-top-color: var(--main-color) !important;
+          border-top-color: $brown !important;
         }
       }
     }
