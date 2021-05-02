@@ -1,23 +1,18 @@
-.table-secondary {
-    background-color: $secondary !important;
-    color: $white !important;
-    thead tr th {
-        border-top-color: $brown;
-        border-bottom-color: $brown;
+.table {
+    background-color: transparent;
+    thead th {
+        border-bottom-color: transparent;
         &:nth-child(1n+2) {
             text-align: center !important;
         }
     }
-    tbody tr {
-        th {
-            border-top-color: $brown;
-            border-bottom-color: $brown;
-        }
-        td {
-            text-align: center !important;
-            color: $muted;
-            border-top-color: $brown;
-            border-bottom-color: $brown;
-        }
+    td {
+        text-align: center;
+    }
+    td, th {
+        border-top-color: transparent;
+    }
+    &.table-striped tbody tr:nth-of-type(2n+1) {
+        background-color: $dark;
     }
 }
