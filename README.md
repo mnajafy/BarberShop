@@ -33,4 +33,4 @@ Remarque: les images utilisées sont uniquement à des fins de présentation. Un
 
 [BarberShop](https://mnajafy.github.io/BarberShop/)
 
-![Template BarberShopp](https://github.com/mnajafy/BarberShop/blob/main/BarberShop.jpeg)
+![Template BarberShopp](https://github.com/mnajafy/BarberShop/blob/main/barbershop.jpeg)
