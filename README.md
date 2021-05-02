@@ -31,6 +31,6 @@ Remarque: les images utilisées sont uniquement à des fins de présentation. Un
 
 ### View:
 
-[BarberShop](https://mnajafy.github.io/BarberShop/)
+https://mnajafy.github.io/BarberShop/
 
 ![Template BarberShopp](https://github.com/mnajafy/BarberShop/blob/main/barbershop.jpeg)
