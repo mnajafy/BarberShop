@@ -12,11 +12,20 @@ Ce modèle fait avec Bootstrap, en utilisant HTML5, SASS, CSS3, JS et jQuery.
 * jquery-3.6.0
 * Font Awesome-5.15.3
 * Aos
+* parallax.js-1.5.0
 
 ## Fonts:
 
 * Poppins
 * Prata
+
+## Images:
+
+* Pexels
+
+https://www.pexels.com/fr-fr/
+
+Remarque: les images utilisées sont uniquement à des fins de présentation. Un espace réservé pour l'image est utilisé dans les fichiers téléchargés.
 
 ## Template
 
