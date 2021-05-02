@@ -1,8 +1,8 @@
 $(document).ready(function() {
     // init AOS
     AOS.init();
+    
     // top to
-    // hide #back-top first
     $("#back-top").hide();
 
     // fade in #back-top
